@@ -1,4 +1,4 @@
-# hate-full-speech-detection
+# hate-full-speech-detection and IP Geolocation Details
 Goal is to develop robust and scalable models that can accurately identify and classify hate speech in text data. 
 This is a Python script that performs hate speech classification using natural language processing (NLP) techniques and machine learning algorithms. It uses the NLTK and scikit-learn libraries for text preprocessing, feature extraction, and model training. The goal is to classify text data into hate speech or non-hate speech categories.
 You can install these dependencies using pip:
@@ -25,7 +25,7 @@ The script assumes that you have a CSV file named "HateSpeechData.csv" that cont
 Please ensure that your dataset is appropriately formatted and labeled before running the script.
 
 
-#IP ADDRESS FINDER
+#IP Geolocation Details
 
 This Python script retrieves geolocation details for a given IP address using the ip2geotools library and the Geopy library. It provides information about the IP address, location, and coordinates.
 
