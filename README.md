@@ -23,3 +23,19 @@ Dataset
 The script assumes that you have a CSV file named "HateSpeechData.csv" that contains the dataset for hate speech classification. The dataset should have a text column containing the text data and a label column indicating whether the text is hate speech or not.
 
 Please ensure that your dataset is appropriately formatted and labeled before running the script.
+
+
+#IP ADDRESS FINDER
+
+This Python script retrieves geolocation details for a given IP address using the ip2geotools library and the Geopy library. It provides information about the IP address, location, and coordinates.
+
+You can install these dependencies using pip:
+
+pip install requests ip2geotools geopy
+Please note that the ip2geotools library requires an API key for accessing geolocation data. The script uses the free noncommercial edition API key.
+Run the script using Python.
+When prompted, enter an IP address for which you want to retrieve geolocation details.
+The script will fetch the details and display the following information:
+IP Address: The entered IP address.
+Location: The city, region, and country of the IP address.
+Coordinates: The latitude and longitude of the IP address.
